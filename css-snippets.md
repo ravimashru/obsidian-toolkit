@@ -36,3 +36,16 @@ Make font in edit and preview mode a little bigger (for themes like Cybertron an
   font-size: var(--font-size-notes);
 }
 ```
+
+## discordian-light-fixes.css
+
+Fixes for light mode of the [Discordian](https://github.com/radekkozak/discordian) theme.
+
+```css
+.theme-light {
+  --text-a: #008fbd;
+  --interactive-normal: #2e3338;
+  --interactive-hover: #7b6cd9;
+} 
+```
+
