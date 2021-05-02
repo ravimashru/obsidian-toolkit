@@ -25,3 +25,14 @@ Use a monospace font in the editor
   font-family: monospace !important;
 }
 ```
+
+## big-font.css
+
+Make font in edit and preview mode a little bigger (for themes like Cybertron and Discordian that use a tiny font size) because I have terrible eyesight :(
+
+```css
+.markdown-preview-view,.markdown-source-view,.cm-s-obsidian {
+  --font-size-notes: 16px;
+  font-size: var(--font-size-notes);
+}
+```
