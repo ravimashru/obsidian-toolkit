@@ -47,10 +47,15 @@ Fixes for light mode of the [Discordian](https://github.com/radekkozak/discordia
   --interactive-normal: #2e3338;
   --interactive-hover: #7b6cd9;
 }
+```
 
-// Bring back the status bar
+## show-status-bar.css
+
+Force status bar to be shown (to be used with themes that hide status bar)
+
+```css
 .status-bar {
-  display: flex;
-}  
+  display: flex !important;
+}
 ```
 
